@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <h2>EARTH STORE</h2>
+
+        <div class="accmenu">
+            <div class="menu">
+                <div style="color: #2c541d;" class="menuitems">HOME</div>
+                <div class="menuitems">ABOUT</div>
+                <div class="menuitems">SHOP</div>
+                <div class="menuitems">CONTACT</div>
+            </div>
+            <div class="account">
+                <div class="card">
+                    <span>0</span>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <div class="accitems"><i class="fa-solid fa-user"></i></div>
+            </div>
+        </div>
+
+    </nav>
+
+    <section id="shop">
+        <div class="search">
+            <div class="searchbar">
+                <input type="search" placeholder="Search products...">
+                <div class="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <div class="wrapper">
+                <div class="values">
+                    <span id="range1">
+                        0
+                    </span>
+                    <span> &dash; </span>
+                    <span id="range2">
+                        100
+                    </span>
+                </div>
+                <div class="container">
+                    <div class="slider-track"></div>
+                    <input type="range" min="0" max="100" value="30" id="slider-1" oninput="slideOne()">
+                    <input type="range" min="0" max="100" value="70" id="slider-2" oninput="slideTwo()">
+                </div>
+            </div>
+
+        </div>
+        <div class="shopsect">
+            <div class="aboutpost">
+                <span>Home / Postcards</span>
+                <h1>Postcards</h1>
+            </div>
+
+            <div class="postcards">
+                <div class="postcardabout">
+                    <p>Showing all 6 results</p>
+                    <div class="sort">
+                        <select name="sort" id="sort">
+                            <option value="">Default sorting</option>
+                            <option value="">Sort by popularity</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="postitems">
+                    <div class="postitem">
+                        <img src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
+                            alt="">
+                        <span>Posters</span>
+                        <p>Poster V1</p>
+                        <div class="price">$23.99</div>
+                    </div>
+                    <div class="postitem">
+                        <img src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
+                            alt="">
+                        <span>Posters</span>
+                        <p>Poster V1</p>
+                        <div class="price">$23.99</div>
+                    </div>
+                    <div class="postitem">
+                        <img src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
+                            alt="">
+                        <span>Posters</span>
+                        <p>Poster V1</p>
+                        <div class="price">$23.99</div>
+                    </div>
+                    <div class="postitem">
+                        <img src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
+                            alt="">
+                        <span>Posters</span>
+                        <p>Poster V1</p>
+                        <div class="price">$23.99</div>
+                    </div>
+                    <div class="postitem">
+                        <img src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
+                            alt="">
+                        <span>Posters</span>
+                        <p>Poster V1</p>
+                        <div class="price">$23.99</div>
+                    </div>
+                    <div class="postitem">
+                        <img src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
+                            alt="">
+                        <span>Posters</span>
+                        <p>Poster V1</p>
+                        <div class="price">$23.99</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footermenu">
+            <div class="footermenuItem">Home</div>
+            <div class="footermenuItem">About</div>
+            <div class="footermenuItem">Shop</div>
+            <div class="footermenuItem">Contact</div>
+        </div>
+        <img src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/EARTH-STORE-200x35.png"
+            alt="">
+        <p>Copyright © 2023 Planet Earth Store</p>
+    </footer>
+
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
